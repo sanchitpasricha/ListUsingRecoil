@@ -10,11 +10,11 @@ function App() {
       <div className="container">
         <div className="header">
           <h1>To Do App using Recoil</h1>
+          <FilterInput />
         </div>
         <div className="box">
           <Form />
         </div>
-        <FilterInput />
         <div className="box">
           <Todos />
         </div>

@@ -1,8 +1,8 @@
-import { todosState } from "../store/atom/todosList";
+import { listFilter } from "../store/selectors/todoFilter";
 import { useRecoilValue } from "recoil";
 
 export function Todos() {
-  const todos = useRecoilValue(todosState);
+  const todos = useRecoilValue(listFilter);
   return (
     <div>
       <h2>To Do List</h2>
